@@ -64,7 +64,7 @@ function IfxNodeJsInstall()
         }
 
         var fstream = require('fstream');
-        var unzip = require('unzip');
+        var unzip = require('node-unzip-2');
 
         // var BUILD_FILE = path.resolve(CURRENT_DIR, 'bin/' + build_file);
         var BUILD_FILE = path.resolve(CURRENT_DIR, 
